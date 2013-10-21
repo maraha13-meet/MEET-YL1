@@ -1,9 +1,13 @@
-raw_input (n) 
-n = raw_input ("type a number here!")
-for n in xrange(n) :
-	print n+1
+a = raw_input ("type a number here!")
+n = int(a)
+for num in xrange (n) :
+	if n % num == 0 :
+		print num
+
+
+
+
 	
 
-n ()
 
 
