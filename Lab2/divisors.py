@@ -1,8 +1,7 @@
-a = raw_input ("type a number here!")
-n = int(a)
-for num in xrange (n) :
-	if n % num == 0 :
-		print num
+def divisors(n) :
+	for num in xrange (n) :
+		if n % (num+1) == 0 :
+			print (num+1)
 
 
 
